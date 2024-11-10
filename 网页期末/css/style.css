@@ -1,0 +1,647 @@
+﻿ 9* {
+  margin: 0;
+  padding: 0;
+  font-family: "黑体";
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+body {
+  background: #f5f6fa;
+}
+
+.layer {
+  width: 100%;
+  padding: 70px 0;
+  display: block;
+  background:url(../images/background.jpg) no-repeat;
+  background-size: cover;
+}
+.layer .contain {
+  width: 1390px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.contain>.title{
+  padding-bottom: 20px;
+}
+
+.layer.self {
+}
+
+.layer.self .contain {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.layer.self .contain .left {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.layer.self .contain .left .title {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.layer.self .contain .left .headpic {
+  padding: 20px 0;
+}
+
+.layer.self .contain .left .headpic img {
+  width: 50%;
+}
+
+.layer.self .contain .left .name {
+  font-size: 28px;
+  line-height: 46px;
+}
+
+.layer.self .contain .left .desc {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.layer.self .contain .right {
+  padding: 70px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.layer.self .contain .right .right_item {
+  text-align: center;
+}
+
+.layer.self .contain .right .right_item img {
+  width: 100%;
+}
+
+.layer.self .contain .right .right_item p {
+  font-size: 20px;
+}
+
+
+.layer.project1 {}
+
+.layer.project1 .contain {
+  overflow: hidden;
+}
+
+.layer.project1 .contain .title {
+}
+
+.layer.project1 .contain .left {
+  width: 70%;
+  float: left;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.layer.project1 .contain .left .left_item {
+  padding-bottom: 40px;
+}
+
+.layer.project1 .contain .left .left_item img {
+  width: 70%;
+}
+
+.layer.project1 .contain .right {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.layer.project1 .contain .right .title {
+  font-size: 26px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  margin-top: 200px;
+}
+
+.layer.project1 .contain .right .desc {
+  font-size: 18px;
+  padding: 0 40px;
+  line-height: 32px;
+}
+
+
+.layer.layer.project2 {}
+
+.layer.layer.project2 .contain {
+  overflow: hidden;
+}
+
+.layer.layer.project2 .contain .title {
+}
+
+.layer.layer.project2 .contain .content {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.layer.layer.project2 .contain .content .left_item {
+  text-align: center;
+}
+
+.layer.layer.project2 .contain .content .left_item img {
+  width: 95%;
+}
+
+.layer.layer.project2 .contain .content .center_item {
+  text-align: center;
+}
+
+.layer.layer.project2 .contain .content .center_item img {
+  width: 95%;
+  margin-top: 150px;
+}
+
+.layer.layer.project2 .contain .content .right_item {
+  text-align: center;
+}
+
+.layer.layer.project2 .contain .content .right_item .title {}
+
+.layer.layer.project2 .contain .content .right_item .desc {
+  text-align: center;
+  line-height: 34px;
+  padding: 0 20px;
+}
+
+.layer.layer.project2 .contain .content .right_item img {
+  width: 95%;
+}
+
+
+.layer.project3{
+}
+.layer.project3 .contain{
+}
+.layer.project3 .contain .title{
+}
+.layer.project3 .contain .top{
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+.layer.project3 .contain .top .top_item{
+}
+.layer.project3 .contain .top .top_item img{
+  width: 80%;
+}
+.layer.project3 .contain .bottom{
+  width: 50%;
+  padding-top: 30px;
+}
+.layer.project3 .contain .bottom .title{
+  font-weight: 700;
+  line-height: 50px;
+}
+.layer.project3 .contain .bottom .desc{
+  line-height: 40px;
+}
+
+.layer.project4 {}
+
+.layer.project4 .contain {}
+
+.layer.project4 .contain .title {}
+
+.layer.project4 .contain .left {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.layer.project4 .contain .left .left_item {}
+
+.layer.project4 .contain .left .left_item img {
+  width: 80%;
+}
+
+.layer.project4 .contain .left .center_item {}
+
+.layer.project4 .contain .left .center_item img {
+  width: 80%;
+}
+
+.layer.project4 .contain .left .right_item {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.layer.project4 .contain .left .right_item .title {
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.layer.project4 .contain .left .right_item .desc {
+  line-height: 30px;
+}
+
+.layer.project5 {}
+
+.layer.project5 .contain {
+  overflow: hidden;
+}
+
+.layer.project5 .contain .title {}
+
+.layer.project5 .contain .left {
+  width: 70%;
+  float:left;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.layer.project5 .contain .left .left_item {
+  padding-bottom: 20px;
+}
+
+.layer.project5 .contain .left .left_item img {
+  width: 80%;
+}
+
+.layer.project5 .contain .right {
+  width: 30%;
+  float:left;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.layer.project5 .contain .right .title {
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.layer.project5 .contain .right .desc {
+  line-height: 70px;
+}
+
+.layer.project6 {}
+
+.layer.project6 .contain {
+  overflow: hidden;
+}
+
+.layer.project6 .contain .content{
+
+}
+.layer.project6 .contain .left {
+  width: 70%;
+  float:left;
+}
+.layer.project6 .contain .left > .title {
+  text-align: center;
+}
+
+
+.layer.project6 .contain .left .top_item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.layer.project6 .contain .left .top_item img {
+  width: 80%;
+}
+
+.layer.project6 .contain .left .center_item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.layer.project6 .contain .left .center_item img {
+  width: 80%;
+  height: 275px;
+}
+
+.layer.project6 .contain .left .bottom_item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.layer.project6 .contain .left .bottom_item img {
+  width: 80%;
+}
+
+.layer.project6 .contain .right {
+  width: 30%;
+  float:left;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.layer.project6 .contain .right .title {
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.layer.project6 .contain .right .desc {
+  line-height: 30px;
+}
+
+.footer{
+  padding:150px 0 50px;
+}
+.footer .contain{
+  text-align: center;
+}
+.footer .contain > p{
+  font-size: 60px;
+}
+.footer .contain .contract{
+  padding-top:200px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.footer .contain .contract .contract_left{
+  padding-top: 30px;
+}
+.footer .contain .contract .contract_left p{
+  line-height: 50px;
+  font-size: 30px;
+}
+.footer .contain .contract .contract_right{
+
+}
+.footer .contain .contract .contract_right .qrcode{
+  width:100px;
+  height: 100px;
+  border-radius: 20px;
+  background:black;
+  margin:0 auto;
+}
+.footer .contain .contract .contract_right p{
+  line-height: 40px;
+  font-size: 20px;
+}
+.footer .contain .contract .contract_right p span{
+  margin:0 10px;
+}
+
+.bottomInfo{
+  background:black;
+  overflow: hidden;
+  line-height: 40px;
+  font-size:14px;
+  padding:0 20px;
+}
+.bottomInfo .leftBottom{
+  float:left;
+  color:white;
+}
+.bottomInfo .rightBottom{
+  float:right;
+  color:white;
+}
+.bottomInfo .rightBottom p{
+  float:left;
+}
+.bottomInfo .rightBottom img{
+  float:left;
+  width:40px;
+  height: 40px;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .layer .contain {
+    width: 96%;
+    margin:0 auto;
+  }
+  .layer.self .contain{
+    display: block;
+    grid-template-columns: unset;
+  }
+  .layer.self .contain .right{
+    width:50%;
+    margin:0 auto;
+  }
+  .layer.project1 .contain .left{
+    width:100%;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+  }
+  .layer.project1 .contain .right{
+    width: 100%;
+  }
+  .layer.project1 .contain .right .title{
+    margin-top: 50px;
+  }
+  .layer.layer.project2 .contain .content{
+    display: block;
+    grid-template-columns: unset;
+  }
+  .layer.layer.project2 .contain .content img{
+    width: 50% !important;
+  }
+  .layer.layer.project2 .contain .content .center_item img{
+    margin-top: 30px;
+  }
+  .layer.layer.project2 .contain .content .right_item .title{
+    padding:30px 20px;
+  }
+  .layer.layer.project2 .contain .content .right_item .desc{
+    padding-bottom: 40px;
+  }
+  .layer.project3 .contain .top{
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+  }
+  .layer.project3 .contain .top .top_item{
+    padding-bottom: 20px;
+  }
+  .layer.project3 .contain .bottom{
+    width:100%;
+    text-align: center;
+  }
+  .layer.project4 .contain .left{
+    display: block;
+    grid-template-columns: unset;
+    text-align: center;
+  }
+  .layer.project4 .contain .left img{
+    width: 60% !important;
+  }
+  .layer.project4 .contain .left .right_item{
+    padding-top: 30px;
+  }
+  .layer.project4 .contain .left .right_item .title{
+    text-align: left;
+  }
+  .layer.project5 .contain .left{
+    width: 80%;
+    margin:0 auto;
+    float:unset;
+    grid-template-columns:repeat(2, 50%);
+    text-align: center;
+  }
+  .layer.project5 .contain .right{
+    width:100%;
+    padding-top:50px;
+  }
+  .layer.project6 .contain .left{
+    width:100%;
+    float:unset;
+  }
+  .layer.project6 .contain .left .bottom_item{
+    display: block;
+    grid-template-columns: unset;
+    text-align: center;
+  }
+  .layer.project6 .contain .left .bottom_item img{
+    width: 50%;
+  }
+  .layer.project6 .contain .right{
+    width:100%;
+    float:unset;
+    padding-top:50px;
+  }
+  .footer .contain .contract{
+    display: block;
+    grid-template-columns: unset;
+  }
+  .footer .contain .contract .contract_right{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .layer .contain {
+    width: 96%;
+    margin:0 auto;
+  }
+  .layer.self .contain{
+    display: block;
+    grid-template-columns: unset;
+  }
+  .layer.self .contain .right{
+    width:50%;
+    margin:0 auto;
+  }
+  .layer.project1 .contain .left{
+    width:100%;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+  }
+  .layer.project1 .contain .right{
+    width: 100%;
+  }
+  .layer.project1 .contain .right .title{
+    margin-top: 50px;
+  }
+  .layer.layer.project2 .contain .content{
+    display: block;
+    grid-template-columns: unset;
+  }
+  .layer.layer.project2 .contain .content img{
+    width: 50% !important;
+  }
+  .layer.layer.project2 .contain .content .center_item img{
+    margin-top: 30px;
+  }
+  .layer.layer.project2 .contain .content .right_item .title{
+    padding:30px 20px;
+  }
+  .layer.layer.project2 .contain .content .right_item .desc{
+    padding-bottom: 40px;
+  }
+  .layer.project3 .contain .top{
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+  }
+  .layer.project3 .contain .top .top_item{
+    padding-bottom: 20px;
+  }
+  .layer.project3 .contain .bottom{
+    width:100%;
+    text-align: center;
+  }
+  .layer.project4 .contain .left{
+    display: block;
+    grid-template-columns: unset;
+    text-align: center;
+  }
+  .layer.project4 .contain .left img{
+    width: 60% !important;
+  }
+  .layer.project4 .contain .left .right_item{
+    padding-top: 30px;
+  }
+  .layer.project4 .contain .left .right_item .title{
+    text-align: left;
+  }
+  .layer.project5 .contain .left{
+    width: 80%;
+    margin:0 auto;
+    float:unset;
+    grid-template-columns:repeat(2, 50%);
+    text-align: center;
+  }
+  .layer.project5 .contain .right{
+    width:100%;
+    padding-top:50px;
+  }
+  .layer.project6 .contain .left{
+    width:100%;
+    float:unset;
+  }
+  .layer.project6 .contain .right{
+    width:100%;
+    float:unset;
+    padding-top:50px;
+  }
+  .footer .contain .contract{
+    display: block;
+    grid-template-columns: unset;
+  }
+  .footer .contain .contract .contract_right{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1389px) {
+  .layer .contain {
+    width: 96%;
+    margin:0 auto;
+  }
+  .layer.self .contain .left .desc{
+    font-size:16px;
+  }
+  .layer.project1 .contain .right .title{
+    margin-top: 100px;
+  }
+  .layer.layer.project2 .contain .content .right_item .desc{
+    line-height: 24px;
+  }
+  .layer.project3 .contain .bottom{
+    width:60%;
+  }
+  .layer.project3 .contain .bottom .desc{
+    line-height: 34px;
+  }
+  .layer.project4 .contain .left .right_item {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .layer.project5 .contain .right{
+    padding-top: 150px;
+  }
+  .layer.project6 .contain .right{
+    padding-top: 100px;
+  }
+
+
+@media screen and (min-width: 1390px) {
+  
+}
